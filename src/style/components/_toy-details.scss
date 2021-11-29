@@ -1,0 +1,47 @@
+.toy-details {
+    background:#FAFAFA;
+    padding: 30px;
+    height: auto;
+    flex-direction: column;
+
+    .review-container {
+        justify-content:center ;
+        flex-direction: column;
+        text-align: center;
+        .toy-details-review {
+            margin-block-end: 50px;
+            width: 100%;
+            background-color: #fefefe;
+            padding:20px;
+            border: 1px solid black;
+            flex-direction: column;
+
+            button {
+                max-width:100px;
+                margin-block-start: 10px;
+            }
+        }
+
+    }
+    .toy-main-details-left {
+        width: 100%;
+        flex-direction: column;
+        
+        button {
+            max-width: 20%;
+        }
+         > * {
+            margin-block-start: 40px;
+            > span {
+                font-weight: bold;
+            }
+        }
+    }
+    .toy-main-details-right {
+        
+        img {
+            mix-blend-mode: multiply;
+            padding: 10%;
+        }
+    }
+}

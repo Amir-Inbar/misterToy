@@ -1,0 +1,22 @@
+.toy-edit {
+    background-color: #FAFAFA;
+    align-items: center;
+    padding: 30px;
+    height: 91vh;
+    font-size: 2rem;
+    
+    .toy-edit-main {
+        button {
+            margin-block-start: 25px;
+        }
+        flex-direction: column;
+        width: 100%;
+
+        div .el-input:first-child {
+            width: 70%;
+        }
+        div:nth-child(5) {
+            width: 60%;
+        }
+    }
+}

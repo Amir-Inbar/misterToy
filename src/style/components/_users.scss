@@ -1,0 +1,13 @@
+.dashboard-container {
+    position: relative;
+    .user-card {
+       border: 1px solid black;
+       justify-content: center;
+       align-items: center;
+       padding:20px;
+
+       span {
+           font-weight: bold;
+       }
+    }
+}

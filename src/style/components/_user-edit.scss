@@ -1,0 +1,25 @@
+.user-edit-container {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,0%);
+    max-height: 600px;
+    background-color: #e1e1e1;
+    padding: 20px;
+    z-index: 3;
+    flex-direction: column;
+
+    
+        button:first-of-type {
+            right:2%;
+            top: 0%;
+            position: absolute;
+        }
+    
+
+    > * {
+        margin-block-start: 10px;
+    }
+
+    
+}
